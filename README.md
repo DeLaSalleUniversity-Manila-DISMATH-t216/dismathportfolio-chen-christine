@@ -59,3 +59,6 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 - **Quantifiers** indicate the generality of the open sentence in which a variable occurs.
   - **Universal Quantifier (∀x)** - "for all", it asserts that a predicate is true for *all values* of a variable in a particular domain.
   - **Existential Quantifier (∃x)** - "then exist", it is true if and only if P(x) is true for *at least one value* of x in the domain.
+- Lastly, I've learned the **Rules of Inference**:
+  - *Argument* - a sequence of statements that end with a conclusion.
+    - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q 
