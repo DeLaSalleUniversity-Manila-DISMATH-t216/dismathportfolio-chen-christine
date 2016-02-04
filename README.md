@@ -24,6 +24,7 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 - A **truth table** is a list of all possible combination of inputs with corresponding outputs.
   - The number of rows for the truth table is 2^n; n is the number of variables.
 
+
 ###### January 13, 2016
 
 - From Monday's lesson, I've learned the different propositional logic such as:
@@ -57,15 +58,15 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 - **Predicate logic** concerned its internal structure in terms of *subject* and *predicate*.
 - While **propositional logic** deals with proposition *as a whole*.
 - **Quantifiers** indicate the generality of the open sentence in which a variable occurs.
-  - **Universal Quantifier (∀x)** - "for all", it asserts that a predicate is true for *all values* of a variable in a particular domain.
-  - **Existential Quantifier (∃x)** - "then exist", it is true if and only if P(x) is true for *at least one value* of x in the domain.
+  - **Universal Quantifier (∀x)** - "For all", it asserts that a predicate is true for *all values* of a variable in a particular domain.
+  - **Existential Quantifier (∃x)** - "Then exist", it is true if and only if P(x) is true for *at least one value* of x in the domain.
 - Lastly, I've learned the terminologies for **Rules of Inference**:
   - *Argument* - a sequence of statements that end with a conclusion.
     - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q 
-  - *Valid* - the conclusion of he argument must follow from the true of the preceding statements of the argument.
+  - *Valid* - The conclusion of he argument must follow from the true of the preceding statements of the argument.
     - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q  is *TAUTOLOGY*
-    - *Tautology*- a statement is ALWAYS true
-  - *Fallacy* - invalid argument.
+    - *Tautology*- A statement is ALWAYS true
+  - *Fallacy* - Invalid argument.
 
 
 ## Week 3
@@ -80,13 +81,31 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 - We can use **rules of inference** as an alternative, the table is shown below:
 
 |   **Rule of Inference**  |            **Tautology**           |          **Name**          |
-|:--------------------:|:------------------------------:|:----------------------:|
-|       p<br>p→q<br>∴q      |        (p ∧ (p → q)) → q       |      Modus ponens      |
-|     ¬q<br>p→q<br>∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |      Modus tollens     |
-|     p→q<br>q→r<br>∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) | Hypothetical syllogism |
-|      p∨q<br>¬p<br>∴q      |       ((p ∨ q) ∧ ¬p) → q       |  Disjunctive syllogism |
+|:--------------------|:------------------------------:|:----------------------:|
+|       p<br>p→q<br>∴ q      |        (p ∧ (p → q)) → q       |      Modus Ponens      |
+|     ¬q<br>p→q<br>∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |      Modus Tollens     |
+|     p→q<br>q→r<br>∴ p→r    |  ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
+|      p∨q<br>¬p<br>∴ q      |       ((p ∨ q) ∧ ¬p) → q       |  Disjunctive Syllogism |
 |       p<br>∴p ∨ q       |           p → (p ∨ q)          |        Addition        |
-|       p ∧ q<br>∴p       |           (p ∧ q) → p          |      Simplication      |
-|      p<br>q<br>∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
-| p ∨ q<br>¬p ∨ r<br>∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
+|       p ∧ q<br>∴ p       |           (p ∧ q) → p          |      Simplication      |
+|      p<br>q<br>∴ p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
+| p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
 
+###### January 27, 2016
+
+- From last Monday's lesson, we had some drills and exercises about the **rules if inference**.
+- I've learned how to use the **rules of inference** in *premises*.
+- I also learned how to use the **rules of inference** to build *arguments*.
+- I learned the difference between *if and only if*, *if, then*, and *only if*.
+  - NOTE: A *if* and *only if* B (A ↔ B)
+    - A *if* B - A is the antecedent and B is the consequent. Therefore, *if* B *then* A (B → A).
+    - A *only if* B - From (A ↔ B), we knew the *if, then* statement is (B → A). Therefore, (A ← B).
+    - ((B → A) ∧ (A ← B)) → (A ↔ B)
+- We were introduced to **methods of proofs**.
+- **Direct proof** (p → q)
+  - Steps:
+    1. Assume *p* is true.
+    2. Show that *q* is also true (based on 1).
+  - Ex. "If n is an integer, then n^2 is odd."
+    - Odd number: {2k+1 | k ∈ Z}
+    - Even number: {2K | k ∈ Z}
