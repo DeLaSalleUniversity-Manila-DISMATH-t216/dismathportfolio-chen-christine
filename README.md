@@ -19,3 +19,10 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 | ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
 | → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
 | ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
+
+- I learned how to verify a statement by using a **Truth Table**.
+- A **truth table** is a list of all possible combination of inputs with corresponding outputs.
+  - The number of rows for the truth table is 2^n; n is the number of variables.
+
+###### January 13, 2016
+
