@@ -122,11 +122,11 @@ dismathportfolio-chen-christine created by Classroom for GitHub
       - This is usually used when *p* is more complicated than *q*.
   - Ex 1. "If n is an integer and 3n+2 is odd, then n is odd."
   - Ex 2. "If n=ab, where a and b are positive intergers, then a≤√n or b≤√n."
-- **Vacuous Proof** ¬p → (p → q)
+- **Vacuous Proof** (¬p → (p → q))
   - Show that *p* is *false*, because *(p → q)* must be *true* when *p* is false.
   - Ex. "If 6 is a prime number, then 6^2=30."
     - It is a **vacuous proof** because the first and second statement are both *false*.
-- **Trivial Proof** q → (p → q)
+- **Trivial Proof** (q → (p → q))
   - Show that *q* is *true*, it follows that *(p → q)* must also be *true*.
   - Ex. "If there are 30 students enrolled in this course this semester, then 6^2=36."
     - It is a **trivial proof** because the first statement is *vague*, while the second statment is clearly *true*.
@@ -142,7 +142,7 @@ dismathportfolio-chen-christine created by Classroom for GitHub
     - Rational number: {a/b | a, b ∈ Z, b≠0, *a, b does not have common factor except ±1}
   - Ex 2. "If 3n+2 is odd, then n is odd."
 - From example #2 of proof by contradiction it leads us to **negation of implication**.
-- **Negation of Implication** ¬(p → q) → (p ∧ ¬q)
+- **Negation of Implication** (¬(p → q) → (p ∧ ¬q))
 - **Contadiction and Implication**
   - “If *p* s true, then *q* is true” using a **proof by contradiction**:
     1. Assume that *p≡T*and that *q≡F*.
