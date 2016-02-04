@@ -45,3 +45,6 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 |  Distributive laws  | p v (q ∧ r) ≡ (p v q) ∧ (p v r)<br>p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |
 |   De Morgan's laws  |              ¬(p ∧ q) ≡ ¬p v ¬q<br>¬(p v q) ≡ ¬p ∧ ¬q          |
 |   Absorption laws   |                 p v (p ∧ q) ≡ p<br>p ∧ (p v q) ≡ p             |
+
+- Using **logical equivalences** and **proof by truth table**, it has been proven that *p → q ≡ ¬p ∨ q*.
+- By using the same techique in our homework, we were able to prove that superman does not exist.
