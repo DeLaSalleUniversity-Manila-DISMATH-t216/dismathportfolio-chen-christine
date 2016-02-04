@@ -59,16 +59,34 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 - **Quantifiers** indicate the generality of the open sentence in which a variable occurs.
   - **Universal Quantifier (∀x)** - "for all", it asserts that a predicate is true for *all values* of a variable in a particular domain.
   - **Existential Quantifier (∃x)** - "then exist", it is true if and only if P(x) is true for *at least one value* of x in the domain.
-- Lastly, I've learned the **Rules of Inference**:
+- Lastly, I've learned the terminologies for **Rules of Inference**:
   - *Argument* - a sequence of statements that end with a conclusion.
     - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q 
   - *Valid* - the conclusion of he argument must follow from the true of the preceding statements of the argument.
     - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q  is *TAUTOLOGY*
-    - *Tautology*- a statement is ALWAYS true.
-  -*Fallacy* - invalid argument.
+    - *Tautology*- a statement is ALWAYS true
+  - *Fallacy* - invalid argument.
 
 
 ## Week 3
 ###### January 25, 2016
 
+- From all the previous lesson, I learned that there are **tools** that can be used to prove statements and these are:
+  - Truth Table (for less variables)
+  - Logical equivalences
+  - Quantifiers
+  - Rules of Inference
+- Since verifying the validity of an argument through a truth table is a tedious process.
+- We can use **rules of inference** as an alternative, the table is shown below:
+
+|   **Rule of Inference**  |            **Tautology**           |          **Name**          |
+|:--------------------:|:------------------------------:|:----------------------:|
+|       p<br>p→q<br>∴q      |        (p ∧ (p → q)) → q       |      Modus ponens      |
+|     ¬q<br>p→q<br>∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |      Modus tollens     |
+|     p→q<br>q→r<br>∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) | Hypothetical syllogism |
+|      p∨q<br>¬p<br>∴q      |       ((p ∨ q) ∧ ¬p) → q       |  Disjunctive syllogism |
+|       p<br>∴p ∨ q       |           p → (p ∨ q)          |        Addition        |
+|       p ∧ q<br>∴p       |           (p ∧ q) → p          |      Simplication      |
+|      p<br>q<br>∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
+| p ∨ q<br>¬p ∨ r<br>∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
 
