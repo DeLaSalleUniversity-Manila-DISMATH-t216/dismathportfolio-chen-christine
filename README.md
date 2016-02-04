@@ -48,3 +48,14 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 
 - Using **logical equivalences** and **proof by truth table**, it has been proven that *p → q ≡ ¬p ∨ q*.
 - By using the same techique in our homework, we were able to prove that superman does not exist.
+
+
+## Week 2
+###### January 18, 2016
+
+- In this week's lesson, we were introduced to a new lesson: **Predicate Logic**
+- **Predicate logic** concerned its internal structure in terms of *subject* and *predicate*.
+- While **propositional logic** deals with proposition *as a whole*.
+- **Quantifiers** indicate the generality of the open sentence in which a variable occurs.
+  - **Universal Quantifier (∀x)** - "for all", it asserts that a predicate is true for *all values* of a variable in a particular domain.
+  - **Existential Quantifier (∃x)** - "then exist", it is true if and only if P(x) is true for *at least one value* of x in the domain.
