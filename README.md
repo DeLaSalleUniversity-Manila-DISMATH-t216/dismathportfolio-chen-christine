@@ -65,7 +65,7 @@ dismathportfolio-chen-christine created by Classroom for GitHub
   - *Valid* - the conclusion of he argument must follow from the true of the preceding statements of the argument.
     - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q  is *TAUTOLOGY*
     - *Tautology*- a statement is ALWAYS true.
-  -*Fallacy* - invalid argument
+  -*Fallacy* - invalid argument.
 
 
 ## Week 3
