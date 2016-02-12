@@ -114,7 +114,7 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 ## Week 4
 ###### February 1, 2016
 
-- We continued our discussion in the **methods of proofs**.
+- We continued our discussion in **methods of proofs**.
 - **Proof by Contraposition**/Indirect (¬q → ¬p)
   - Steps:
     1. Assume *¬q* is true.
@@ -143,8 +143,39 @@ dismathportfolio-chen-christine created by Classroom for GitHub
   - Ex 2. "If 3n+2 is odd, then n is odd."
 - From example #2 of proof by contradiction it leads us to **negation of implication**.
 - **Negation of Implication** (¬(p → q) → (p ∧ ¬q))
-- **Contadiction and Implication**
+- **Contradiction and Implication**
   - “If *p* s true, then *q* is true” using a **proof by contradiction**:
-    1. Assume that *p≡T*and that *q≡F*.
+    1. Assume that *p≡T* and that *q≡F*.
     2. Derive a contradiction.
     3. Conclude that if *p* is *true*, *q* must be *as well*.
+- **Proof by Equivalence (Biconditionals)**
+  - To prove a theorem that is a biconditional statement *(p ↔ q)*, we show that: *(p → q) → [(p → q) ∧ (q → p)]*
+  - Ex 1. "If n is an integer, n is even iff n^2 is even." (r ↔ s)
+    - For biconditional statement, we should prove (r → s) and (s → r) are both *true*.
+
+
+## Week 5
+###### February 10, 2016
+
+- We continued our discussion in **methods of proofs**, and had more examples in **proof by equivalence**.
+- **Proof by Equivalence (Biconditionals)**
+  - Ex 2. "If n is a positive integer, then n is odd if and only if n^2 is odd."
+  - Ex 3. For any natural number n, n is even if and only if n^2 is even.
+  - Ex 4. Show that these statements about the integer _n_ are equivalent:
+    - P1: n is even
+    - P2: n-1 is odd
+    - P2: n^2 is even
+  - Ex 5. Prove or disprove the following theorem: 
+    - Every positive integer is the sum os the squares of two integers.
+      - The statement is *false* due to *counterexample*.
+        - *Counterexample* - It is an example that disproves a universal ("for all") statement.
+- **Mathematical Induction**
+  - Treats the sequence of propositions as a domino:
+    - P(1), P(2), P(3), P(k), P(k+1), ...
+  - Steps:
+    1. Basic step: Show *P(1)≡T*
+    2. Inductive step: 
+      - Assume *P(k)* is true.
+      - Show that is also *P(k+1)* true.
+  - *Q.E.D. (quod erat demonstrandum)* - "which is what had to be proven" or signals the completion of the proof.
+  - Ex. Prove P(n) = 1 + 2 + 3 + … + n = n(n+1)/2
