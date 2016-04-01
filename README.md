@@ -403,5 +403,47 @@ dismathportfolio-chen-christine created by Classroom for GitHub
 
 - **Big-Omega and Big-Theta Notation**
     - Big-O Notation does not provide a lowerbound for the size of f(x). </br>
-        - **Big-Omega** (Big-Ω) - lower bound </br>
-        - **Big-Theta** (Big-Θ) - both upper and lower bound
+        - **Big-Omega** (Big-Ω) - Lower bound </br>
+        - **Big-Theta** (Big-Θ) - Both upper and lower bound
+
+- **Algorithm Time Complexity** - Can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+- **Division and Modulo Operator**
+  - Let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
+  - Q = a div d
+  - r = a mod d
+
+## Week 11
+###### No classes
+
+## Week 12
+###### March 28, 2016
+
+- **Graph Theory**
+  - *Graph* - A discrete structure consisting of vertices and edges that connect these vertices.
+  - G=(V, E)
+  - *Isolated* - Vertex with 0 degree
+  - *Pendant* - Vertex with one degree
+  - Basic terminologies:
+    - *Degree* - The number of edges incident with it, except that the loop at a vertex contributes twice to the degree of that vertex.
+    - *Handshaking Theorem*
+            2e = ∑deg(v)
+    - *Subgraph* - G=(V,E) is a graph of H=(W,F), where W ⊆ V and F ⊆ E. Subgraph of H of G is a proper subgraph of G if H ≠ G.
+- **Path** - Sequence of edges travelling from vertex to vertex along the edges
+- **Euler's Circuit and Path**
+  - Both passes through every edge ONCE. (repetition of nodes is valid)
+  - *Euler's Circuit* - Graph with all vertices/nodes having EVEN degrees. (Starting and ending points are the same)
+  - *Euler's Path* - Graph with EXACTLY 2 vertices/nodes with ODD degrees.
+- **Hamilton's Ciruit and Path**
+  - Both passes through every vertex/node ONCE.
+  - *Hamilton's Circuit* - Starting and ending points are the same
+  - *Hamilton's Path*
+- **Matrices of Graph** - 1 for adjacent; 0 for non-adjacent
+- **Isomorphic Graph** - Graphs that have equal vertices/nodes, and have the same connection.
+- **Planar Graph**
+  - No edges cross in a graph.
+  - Euler's formula for counting the *regions*: r = e - v +2
+  - Euler's characteristic: ℵ = r - |e| + |v| = 2
+- **Homeomorphic Graphs**
+    - Can be obtained from the same graph by a sequence of elementary subdivisions.
+        - *Elementary Subdivision* - Everything is planar graph
+    - *Kuratowski's Theorem* - Nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>.
