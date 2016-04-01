@@ -445,5 +445,5 @@ dismathportfolio-chen-christine created by Classroom for GitHub
   - Euler's characteristic: ℵ = r - |e| + |v| = 2
 - **Homeomorphic Graphs**
     - Can be obtained from the same graph by a sequence of elementary subdivisions.
-        - *Elementary Subdivision* - Everything is planar graph
+    - *Elementary Subdivision* - Everything is planar graph
     - *Kuratowski's Theorem* - Nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>.
